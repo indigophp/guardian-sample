@@ -1,0 +1,31 @@
+{
+    "name": "indigophp/guardian-sample",
+    "type": "project",
+    "description": "Sample application for Guardian",
+    "license": "MIT",
+    "keywords": ["guardian"],
+    "homepage": "https://indigophp.com",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "alexbilbie/proton": "~1.4",
+        "indigophp/guardian": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indigo\\Guardian\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
